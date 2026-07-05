@@ -1,0 +1,43 @@
+<?php
+	include('php/db.php');
+	session_start();
+	$session_id = $_SESSION['id'];
+	$session_pass_ad = $_SESSION['admin_password'];
+
+	if($session_pass_ad != 'ВАШ ПАРОЛЬ'){
+        header("Location: index.php");
+    }
+?>
+<html lang="RU">
+	<head>
+		<title>Пароль для админов | MultVerse</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link rel="icon" href="imgs/favicon.png" type="image/x-icon"/>
+	</head>
+	<body link="0072C9" vlink="#0079D7" alink="#0083E8">
+		<?
+			include('includes/header.php');
+		?>
+		<br>
+		<center>
+			<img src="imgs/content-bg-top.gif" width="760" height="10" border="0" style="display:block"><!--
+		--><table width="760" border="0" align="center" cellpadding="3" cellspacing="3" background="imgs/content-bg.gif" style="display:block">
+			<tr>
+				<td valign="top">
+					<form action="php/admin_login.php" method="post">
+                        <h1>Вход в любой аккаунт:</h1>
+                        <br>
+                        <input name="id"></input>
+                    	<br><br>
+                    	<button type="submit">Вход</button>
+                    </form>
+				</td>
+			</tr>
+		</table><!--
+		--><img src="imgs/content-bg-bottom.gif" width="760" height="10" border="0" style="display:block">
+		<?
+			include('includes/footer.php');
+		?>
+	</body>
+</html>

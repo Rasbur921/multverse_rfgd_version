@@ -1,0 +1,22 @@
+body{
+	background-image: url('imgs/bg.gif');
+	font-family: Comic Sans MS;
+}
+
+a img{
+	border: 0;
+}
+
+hr{
+	color: #797BA8;
+	size: 3;
+}
+
+.small_a{
+	font-size: 13px;
+}
+
+.blue_panel{
+	background-image: url('imgs/login-bg.gif');
+    border: 1px solid #00CAE2;
+}
