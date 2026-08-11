@@ -1,6 +1,6 @@
 <div style="color:white">
 	<br>
-	Автор сайта: Rasbur | Создатель форка: (Вставте своё имя/никнейм) | <a href="#" onclick="window.open('contacts.php','contacts_popup','width=340,height=195,menubar=no,status=no,scrollbars=no'); return false;" style="color:#57C9FF">Контакты</a>
+	Автор сайта: Rasbur | Создатель форка: (Вставьте своё имя/никнейм) | <a href="#" onclick="window.open('contacts.php','contacts_popup','width=340,height=195,menubar=no,status=no,scrollbars=no'); return false;" style="color:#57C9FF">Контакты</a>
 	<br>
 	<table>
         <tr>
